@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\rectangle_test\asn_application.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\asn_bit_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\asn_codecs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\asn_codecs_prim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\asn_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\asn_ioc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\asn_random_fill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\asn_system.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\ber_decoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\ber_tlv_length.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\ber_tlv_tag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\BIT_STRING.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\constr_CHOICE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\constr_SEQUENCE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\constr_TYPE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\constraints.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\der_encoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\INTEGER.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\NativeInteger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\OCTET_STRING.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\OPEN_TYPE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\per_decoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\per_encoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\per_opentype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\per_support.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\Rectangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\xer_decoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\xer_encoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rectangle_test\xer_support.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\rectangle_test\asn_application.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\asn_bit_data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\asn_codecs_prim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\asn_internal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\asn_random_fill.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\ber_decoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\ber_tlv_length.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\ber_tlv_tag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\BIT_STRING.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\constr_CHOICE.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\constr_CHOICE_oer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\constr_SEQUENCE.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\constr_SEQUENCE_oer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\constr_TYPE.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\constraints.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\der_encoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\INTEGER.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\INTEGER_oer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\NativeInteger.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\NativeInteger_oer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\OCTET_STRING.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\OPEN_TYPE.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\pdu_collection.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\per_decoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\per_encoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\per_opentype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\per_support.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\Rectangle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\xer_decoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\xer_encoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rectangle_test\xer_support.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
